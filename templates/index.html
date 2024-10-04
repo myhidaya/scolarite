@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>توليد شهادة مدرسية</title>
+</head>
+<body>
+    <h1>إدخال البيانات لتوليد شهادة مدرسية</h1>
+    <form action="/generate_certificate" method="post">
+        <label for="name">الاسم:</label>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label for="last_name">اللقب:</label>
+        <input type="text" id="last_name" name="last_name" required><br><br>
+
+        <label for="birth_date">تاريخ الميلاد:</label>
+        <input type="date" id="birth_date" name="birth_date" required><br><br>
+
+        <label for="level">المستوى:</label>
+        <input type="text" id="level" name="level" required><br><br>
+
+        <label for="reg_number">رقم التسجيل:</label>
+        <input type="text" id="reg_number" name="reg_number" required><br><br>
+
+        <input type="submit" value="توليد الشهادة">
+    </form>
+</body>
+</html>
+
